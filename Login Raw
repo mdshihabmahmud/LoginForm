@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+<style>
+	*{
+		margin-right: 0px;
+		padding: 0px;
+	}
+		.one{
+			background-color: #1C9C81;
+			height: 300px;
+			width: 300px;
+		    padding: 100px;		
+		}
+		.two{
+			text-align: center;
+		}
+		.three{
+			padding: 10px;
+			margin: 10px;
+			border-radius: 50px;
+		}
+		.six{
+			text-align: center;
+		}
+		.four{
+			width: 500px;
+			margin: auto;
+			margin-top: 70px;
+		}
+</style>
+</head>
+<body>
+		<div class="four">
+
+			<div class="one">
+					<h1 class="six">Log In Page</h1>
+    <form class="two">
+    	User:
+    	<input type="text" class="three" placeholder="User ID" required=""><br>
+    	Password:
+    	<input type="text" class="three" placeholder="Password" required=""><br>
+    	<label>
+    		<input type="checkbox" id="rememberme" value="rememberme" >&nbsp;Remember Me
+    	</label>
+    	                      
+    <input type="submit" value="Login" class="three" /> <br>
+    	<a href="">Forgot Password</a><br>
+    	<br>
+    	<a href="">New Here? Sign Up</a>
+    	<a href=""> &nbsp;Register</a>   
+    </form>
+	</div>
+	</div>
+</body>
+</html>
